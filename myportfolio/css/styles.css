@@ -140,10 +140,6 @@ header li > a:hover{
   margin:0;
 }
 
-.txt-contents{
- color:dark-gray;
-}
-
 .profile{
   margin:0 auto;
 }
@@ -152,7 +148,15 @@ header li > a:hover{
   margin: 0px;
 }
 
-.profile > .txt-contents{
+.txt-contents {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+.txt{
+  display: inline-block;
    text-align: left;
    color: #5a5a5a;
 }
