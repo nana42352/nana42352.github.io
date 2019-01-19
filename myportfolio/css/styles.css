@@ -149,7 +149,7 @@ header li > a:hover{
 .txt-contents {
     max-width: 350px;
     margin-bottom: 30px;
-    text-align: center;
+    margin:0 auto;
   }
 
 
