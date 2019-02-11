@@ -4,6 +4,12 @@
     margin-bottom:20px;
   }
 
+  .txt-contents {
+      max-width: 50%;
+      margin-bottom: 30px;
+      margin:0 auto;
+    }
+
 }
 
 /* スマホ向けレイアウト */
@@ -11,4 +17,12 @@
   .work{
     width: 100%;
   }
+  .txt-contents {
+    max-width: 95%;
+    width: 100%;
+    box-sizing: border-box;
+    padding:0 16px;
+      margin-bottom: 30px;
+      margin:0 auto;
+    }
 }

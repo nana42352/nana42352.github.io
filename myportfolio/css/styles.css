@@ -1,6 +1,7 @@
 *{
   box-sizing:border-box;
-  font-family: "objektiv-mk2", "ryo-gothic-plusn", sans-serif;
+  font-family: europa, sans-serif,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic";
+  font-style: normal;
   letter-spacing: 2px;
 }
 
@@ -15,7 +16,6 @@ a{
 
 body {
     color: #333;
-    font-family: Verdana, sans-serif;
     margin: 0;
 }
 
@@ -58,7 +58,7 @@ header li > a:hover{
 
 .greetings h3{
   display:block;
-  margin-top: 30px;
+  margin-top: 60px;
   color:white;
   background-color: #111111;
   font-weight: lighter;
@@ -88,7 +88,7 @@ header li > a:hover{
 .container{
   width:100%;
   /* height:800px; */
-  padding:20px 16px 35px;
+  padding:30px 16px 35px;
   margin:30px auto;
   text-align: center;
 }
@@ -99,12 +99,12 @@ header li > a:hover{
 
 .container p{
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .container h4{
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 800;
   color:#464646;
   margin-top: 10px;
   margin-bottom: 0px;
@@ -145,14 +145,6 @@ header li > a:hover{
 .profile h3{
   margin: 0px;
 }
-
-.txt-contents {
-    max-width: 90%;
-    min-width :350px;
-    margin-bottom: 30px;
-    margin:0 auto;
-  }
-
 
 .txt{
   display: inline-block;
@@ -197,14 +189,23 @@ footer address{
   color:black;
 }
 
+.heading h2{
+  margin: 8px;
+  font-weight: 800;
+}
+
+.heading p{
+  margin: 0px;
+}
+
 .btn{
   display: inline-block;
     line-height: 50px;
     padding: 0 30px;
     background-color: white;
-    color: #555555;
+    color: #111111;
     text-decoration: none;
-    border: 2px solid #555555;
+    border: 2px solid #111111;
     border-radius: 2px;
     font-weight: bold;
     cursor: pointer;
